@@ -1,0 +1,6 @@
+{
+  "parent": "orbital_architect:block/drone_dock_powered",
+  "textures": {
+    "signal": "orbital_architect:block/crystal_amber"
+  }
+}

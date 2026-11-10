@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {"particle":"orbital_architect:block/porcelain_shadow","rim":"orbital_architect:block/porcelain_shadow"},
+  "elements": [
+    {"from":[0.2,14.75,0],"to":[0.6,16,16],"faces":{"west":{"texture":"#rim","cullface":"west","uv":[0,0,16,1.25]},"down":{"texture":"#rim","cullface":"west"}}},
+    {"from":[0,15.4,0],"to":[1.25,15.8,16],"faces":{"up":{"texture":"#rim","cullface":"up","uv":[0,0,1.25,16]},"east":{"texture":"#rim","cullface":"up"}}}
+  ]
+}

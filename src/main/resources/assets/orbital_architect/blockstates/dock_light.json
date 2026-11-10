@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "orbital_architect:block/dock_light"
+    },
+    "lit=false": {
+      "model": "orbital_architect:block/dock_light_off"
+    }
+  }
+}

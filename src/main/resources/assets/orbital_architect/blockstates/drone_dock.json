@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "orbital_architect:block/drone_dock"
+    },
+    "lit=true,task=0": {
+      "model": "orbital_architect:block/drone_dock_powered"
+    },
+    "lit=true,task=1": {
+      "model": "orbital_architect:block/drone_dock_dig"
+    },
+    "lit=true,task=2": {
+      "model": "orbital_architect:block/drone_dock_build"
+    },
+    "lit=true,task=3": {
+      "model": "orbital_architect:block/drone_dock_carry"
+    }
+  }
+}

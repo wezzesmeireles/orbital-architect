@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {"particle":"orbital_architect:block/deck_plate","edge":"orbital_architect:block/deck_bevel"},
+  "elements": [
+    {"from":[0,16,0],"to":[16,16.22,1],"faces":{"up":{"texture":"#edge","cullface":"up","uv":[0.1,0.1,15.9,1]},"north":{"texture":"#edge","cullface":"up","uv":[7,7,9,9]},"south":{"texture":"#edge","cullface":"up","uv":[7,7,9,9]},"east":{"texture":"#edge","cullface":"up","uv":[7,7,9,9]},"west":{"texture":"#edge","cullface":"up","uv":[7,7,9,9]}}}
+  ]
+}

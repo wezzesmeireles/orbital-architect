@@ -1,0 +1,41 @@
+{
+  "title": "Núcleo Protótipo",
+  "template": "orbital_architect:hub_t4",
+  "tier": 4,
+  "size": [
+    25,
+    15,
+    25
+  ],
+  "ports": {
+    "north": [
+      11,
+      5,
+      0
+    ],
+    "south": [
+      11,
+      5,
+      24
+    ],
+    "west": [
+      0,
+      5,
+      11
+    ],
+    "east": [
+      24,
+      5,
+      11
+    ]
+  },
+  "gallery": true,
+  "airlocks": {
+    "north": 4,
+    "south": 4,
+    "west": 4,
+    "east": 4
+  },
+  "shapedClearance": true,
+  "roofFrom": 10
+}

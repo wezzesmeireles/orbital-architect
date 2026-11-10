@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "orbital_architect:orbital_light"
+  },
+  "result": {
+    "id": "orbital_architect:dock_light",
+    "count": 1
+  }
+}

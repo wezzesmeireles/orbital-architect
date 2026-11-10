@@ -1,0 +1,41 @@
+{
+  "title": "Torre de carga e observatório",
+  "template": "orbital_architect:lift_tower",
+  "tier": 2,
+  "size": [
+    25,
+    26,
+    25
+  ],
+  "ports": {
+    "north": [
+      11,
+      5,
+      0
+    ],
+    "south": [
+      11,
+      5,
+      24
+    ],
+    "west": [
+      0,
+      5,
+      11
+    ],
+    "east": [
+      24,
+      5,
+      11
+    ]
+  },
+  "gallery": true,
+  "airlocks": {
+    "north": 4,
+    "south": 4,
+    "west": 4,
+    "east": 4
+  },
+  "shapedClearance": true,
+  "roofFrom": 21
+}

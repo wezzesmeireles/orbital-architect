@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "orbital_architect:block/terminal_out",
+    "side": "orbital_architect:block/terminal_in",
+    "top": "orbital_architect:block/white_steel"
+  }
+}

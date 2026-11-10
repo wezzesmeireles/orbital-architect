@@ -1,0 +1,51 @@
+{
+  "title": "Central de energia XL",
+  "template": "orbital_architect:reactor_bunker_xl",
+  "tier": 3,
+  "size": [
+    53,
+    38,
+    53
+  ],
+  "ports": {
+    "north": [
+      25,
+      5,
+      0
+    ],
+    "south": [
+      25,
+      5,
+      52
+    ],
+    "west": [
+      0,
+      5,
+      25
+    ],
+    "east": [
+      52,
+      5,
+      25
+    ],
+    "down": [
+      26,
+      0,
+      26
+    ],
+    "up": [
+      26,
+      37,
+      26
+    ]
+  },
+  "gallery": true,
+  "airlocks": {
+    "north": 4,
+    "south": 4,
+    "west": 4,
+    "east": 4
+  },
+  "shapedClearance": true,
+  "roofFrom": 29
+}

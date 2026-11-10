@@ -1,0 +1,7 @@
+{
+  "parent": "orbital_architect:block/dock_light",
+  "textures": {
+    "lens": "orbital_architect:block/machined_recess",
+    "signal": "orbital_architect:block/machined_recess"
+  }
+}

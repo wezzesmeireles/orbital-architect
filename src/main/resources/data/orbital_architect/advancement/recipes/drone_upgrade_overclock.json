@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "orbital_architect:drone_upgrade_overclock"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_redstone",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "orbital_architect:drone_upgrade_overclock"
+    ]
+  }
+}

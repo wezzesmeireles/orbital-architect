@@ -1,0 +1,9 @@
+{
+  "ambientocclusion": false,
+  "textures": {"particle":"#shell","shell":"orbital_architect:block/machined_recess","rail":"orbital_architect:block/white_steel"},
+  "elements": [
+    {"from":[6,14,0],"to":[10,16,16],"faces":{"up":{"texture":"#shell"},"down":{"texture":"#shell"},"north":{"texture":"#shell"},"south":{"texture":"#shell"},"east":{"texture":"#shell"},"west":{"texture":"#shell"}}},
+    {"from":[5.75,14.37,0],"to":[6,15.42,16],"faces":{"up":{"texture":"#rail"},"down":{"texture":"#rail"},"north":{"texture":"#rail"},"south":{"texture":"#rail"},"east":{"texture":"#rail"},"west":{"texture":"#rail"}}},
+    {"from":[10,14.37,0],"to":[10.25,15.42,16],"faces":{"up":{"texture":"#rail"},"down":{"texture":"#rail"},"north":{"texture":"#rail"},"south":{"texture":"#rail"},"east":{"texture":"#rail"},"west":{"texture":"#rail"}}}
+  ]
+}

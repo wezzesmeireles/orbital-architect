@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {"particle":"orbital_architect:block/ceramic_field","rim":"orbital_architect:block/ceramic_edge"},
+  "elements": [
+    {"from":[-0.27,0,15],"to":[0,16,16],"faces":{"west":{"texture":"#rim","cullface":"west","uv":[15,0,16,16]},"north":{"texture":"#rim","cullface":"west"}}},
+    {"from":[16,0,15],"to":[16.27,16,16],"faces":{"east":{"texture":"#rim","cullface":"east","uv":[0,0,1,16]},"north":{"texture":"#rim","cullface":"east"}}},
+    {"from":[0,16,15],"to":[16,16.27,16],"faces":{"up":{"texture":"#rim","cullface":"up","uv":[0,15,16,16]},"north":{"texture":"#rim","cullface":"up"}}},
+    {"from":[0,-0.27,15],"to":[16,0,16],"faces":{"down":{"texture":"#rim","cullface":"down","uv":[0,0,16,1]},"north":{"texture":"#rim","cullface":"down"}}}
+  ]
+}

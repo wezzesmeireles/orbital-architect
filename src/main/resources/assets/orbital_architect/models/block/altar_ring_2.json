@@ -1,0 +1,13 @@
+{
+  "loader": "neoforge:obj",
+  "model": "orbital_architect:models/block/altar_ring.obj",
+  "automatic_culling": false,
+  "shade_quads": false,
+  "flip_v": true,
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "#gem",
+    "gem": "orbital_architect:block/crystal_ice",
+    "frame": "orbital_architect:block/machined_shoulder"
+  }
+}

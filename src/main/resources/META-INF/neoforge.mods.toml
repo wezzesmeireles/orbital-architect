@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+[[mods]]
+modId="orbital_architect"
+version="0.1.0"
+displayName="Orbital Architect"
+description="Survival-built modular architecture."
+[[dependencies.orbital_architect]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.265,21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.orbital_architect]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.orbital_architect]]
+modId="ae2"
+type="optional"
+versionRange="[19.2.17,20)"
+ordering="AFTER"
+side="BOTH"

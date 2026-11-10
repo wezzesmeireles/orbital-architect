@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "orbital_architect:block/reinforced_shell"
+    }
+  }
+}

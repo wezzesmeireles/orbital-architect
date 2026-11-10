@@ -1,0 +1,51 @@
+{
+  "title": "Centro de dados XL",
+  "template": "orbital_architect:ae2_core_xl",
+  "tier": 3,
+  "size": [
+    45,
+    21,
+    45
+  ],
+  "ports": {
+    "north": [
+      21,
+      5,
+      0
+    ],
+    "south": [
+      21,
+      5,
+      44
+    ],
+    "west": [
+      0,
+      5,
+      21
+    ],
+    "east": [
+      44,
+      5,
+      21
+    ],
+    "down": [
+      22,
+      0,
+      22
+    ],
+    "up": [
+      22,
+      20,
+      22
+    ]
+  },
+  "gallery": true,
+  "airlocks": {
+    "north": 4,
+    "south": 4,
+    "west": 4,
+    "east": 4
+  },
+  "shapedClearance": true,
+  "roofFrom": 13
+}

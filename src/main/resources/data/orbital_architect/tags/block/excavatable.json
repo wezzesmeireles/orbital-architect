@@ -1,0 +1,43 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "#minecraft:base_stone_nether",
+    "#minecraft:dirt",
+    "#minecraft:sand",
+    "#minecraft:logs",
+    "#minecraft:leaves",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+    {
+      "id": "#c:ores",
+      "required": false
+    },
+    "minecraft:gravel",
+    "minecraft:clay",
+    "minecraft:mud",
+    "minecraft:snow",
+    "minecraft:snow_block",
+    "minecraft:powder_snow",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:dead_bush",
+    "minecraft:vine",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:moss_block",
+    "minecraft:moss_carpet",
+    "minecraft:dripstone_block",
+    "minecraft:pointed_dripstone",
+    "minecraft:calcite",
+    "minecraft:tuff",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:end_stone"
+  ]
+}

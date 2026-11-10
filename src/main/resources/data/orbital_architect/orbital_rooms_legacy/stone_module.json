@@ -1,0 +1,49 @@
+{
+  "title": "Abrigo de pedra",
+  "template": "orbital_architect:legacy/stone_module",
+  "tier": 2,
+  "size": [
+    9,
+    9,
+    7
+  ],
+  "ports": {
+    "north": [
+      4,
+      5,
+      0
+    ],
+    "south": [
+      4,
+      5,
+      6
+    ],
+    "west": [
+      0,
+      5,
+      3
+    ],
+    "east": [
+      8,
+      5,
+      3
+    ],
+    "down": [
+      4,
+      0,
+      3
+    ],
+    "up": [
+      4,
+      8,
+      3
+    ]
+  },
+  "gallery": true,
+  "airlocks": {
+    "north": 2,
+    "south": 2,
+    "west": 2,
+    "east": 2
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "orbital_architect:item/construction_drone",
+  "textures": {
+    "signal": "orbital_architect:block/hub_trim_4"
+  }
+}

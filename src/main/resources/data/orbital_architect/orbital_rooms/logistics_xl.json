@@ -1,0 +1,51 @@
+{
+  "title": "Fábrica XL",
+  "template": "orbital_architect:logistics_xl",
+  "tier": 3,
+  "size": [
+    59,
+    22,
+    59
+  ],
+  "ports": {
+    "north": [
+      28,
+      5,
+      0
+    ],
+    "south": [
+      28,
+      5,
+      58
+    ],
+    "west": [
+      0,
+      5,
+      28
+    ],
+    "east": [
+      58,
+      5,
+      28
+    ],
+    "down": [
+      29,
+      0,
+      29
+    ],
+    "up": [
+      29,
+      21,
+      29
+    ]
+  },
+  "gallery": true,
+  "airlocks": {
+    "north": 4,
+    "south": 4,
+    "west": 4,
+    "east": 4
+  },
+  "shapedClearance": true,
+  "roofFrom": 13
+}

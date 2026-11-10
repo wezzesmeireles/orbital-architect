@@ -1,0 +1,19 @@
+{
+  "textures": {
+    "jaw": "orbital_architect:item/drone_side",
+    "tip": "orbital_architect:item/drone_carbon",
+    "particle": "#jaw"
+  },
+  "elements": [
+    {
+      "from": [7.45, 5.9, 7.45],
+      "to": [8.55, 8.4, 8.55],
+      "faces": {"up":{"texture":"#jaw"},"down":{"texture":"#jaw"},"north":{"texture":"#jaw"},"south":{"texture":"#jaw"},"east":{"texture":"#jaw"},"west":{"texture":"#jaw"}}
+    },
+    {
+      "from": [6.55, 5.4, 7.45],
+      "to": [8.55, 6.35, 8.55],
+      "faces": {"up":{"texture":"#tip"},"down":{"texture":"#tip"},"north":{"texture":"#tip"},"south":{"texture":"#tip"},"east":{"texture":"#tip"},"west":{"texture":"#tip"}}
+    }
+  ]
+}

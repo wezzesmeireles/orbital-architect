@@ -1,0 +1,51 @@
+{
+  "title": "Galpão logístico",
+  "template": "orbital_architect:logistics",
+  "tier": 2,
+  "size": [
+    25,
+    15,
+    25
+  ],
+  "ports": {
+    "north": [
+      11,
+      5,
+      0
+    ],
+    "south": [
+      11,
+      5,
+      24
+    ],
+    "west": [
+      0,
+      5,
+      11
+    ],
+    "east": [
+      24,
+      5,
+      11
+    ],
+    "down": [
+      12,
+      0,
+      12
+    ],
+    "up": [
+      12,
+      14,
+      12
+    ]
+  },
+  "gallery": true,
+  "airlocks": {
+    "north": 4,
+    "south": 4,
+    "west": 4,
+    "east": 4
+  },
+  "shapedClearance": true,
+  "roofFrom": 10
+}

@@ -1,0 +1,7 @@
+{
+  "ambientocclusion": false,
+  "textures": {"particle":"#shell","shell":"orbital_architect:block/white_steel","leaf":"orbital_architect:block/airlock_leaves_v3"},
+  "elements": [
+    {"from":[7,0,0],"to":[9,16,16],"faces":{"up":{"texture":"#shell"},"down":{"texture":"#shell"},"north":{"texture":"#shell"},"south":{"texture":"#shell"},"east":{"texture":"#leaf"},"west":{"texture":"#leaf"}}}
+  ]
+}

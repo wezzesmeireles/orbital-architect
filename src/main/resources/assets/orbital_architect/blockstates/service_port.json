@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "orbital_architect:block/service_port"
+    },
+    "facing=east": {
+      "model": "orbital_architect:block/service_port",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "orbital_architect:block/service_port",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "orbital_architect:block/service_port",
+      "y": 270
+    }
+  }
+}

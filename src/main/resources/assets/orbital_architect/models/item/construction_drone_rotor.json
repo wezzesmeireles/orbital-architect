@@ -1,0 +1,8 @@
+{
+  "textures": {"carbon":"orbital_architect:item/drone_carbon","hull":"orbital_architect:item/drone_hull","particle":"#carbon"},
+  "elements": [
+    {"from":[6.52,7.9,7.78],"to":[9.48,8.06,8.22],"faces":{"up":{"uv":[0,0,16,16],"texture":"#carbon"},"down":{"uv":[0,0,16,16],"texture":"#carbon"},"north":{"uv":[0,0,16,16],"texture":"#carbon"},"south":{"uv":[0,0,16,16],"texture":"#carbon"},"east":{"uv":[0,0,16,16],"texture":"#carbon"},"west":{"uv":[0,0,16,16],"texture":"#carbon"}}},
+    {"from":[6.38,7.9,7.78],"to":[6.57,8.07,8.22],"faces":{"up":{"uv":[0,0,16,16],"texture":"#hull"},"down":{"uv":[0,0,16,16],"texture":"#hull"},"north":{"uv":[0,0,16,16],"texture":"#hull"},"south":{"uv":[0,0,16,16],"texture":"#hull"},"east":{"uv":[0,0,16,16],"texture":"#hull"},"west":{"uv":[0,0,16,16],"texture":"#hull"}}},
+    {"from":[9.43,7.9,7.78],"to":[9.62,8.07,8.22],"faces":{"up":{"uv":[0,0,16,16],"texture":"#hull"},"down":{"uv":[0,0,16,16],"texture":"#hull"},"north":{"uv":[0,0,16,16],"texture":"#hull"},"south":{"uv":[0,0,16,16],"texture":"#hull"},"east":{"uv":[0,0,16,16],"texture":"#hull"},"west":{"uv":[0,0,16,16],"texture":"#hull"}}}
+  ]
+}

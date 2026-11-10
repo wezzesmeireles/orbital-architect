@@ -1,0 +1,21 @@
+{
+  "airlock_open": {
+    "subtitle": "subtitles.orbital_architect.airlock_open",
+    "sounds": ["orbital_architect:airlock/open"]
+  },
+  "airlock_close": {
+    "subtitle": "subtitles.orbital_architect.airlock_close",
+    "sounds": ["orbital_architect:airlock/close"]
+  },
+  "drone_pickup": {
+    "subtitle": "subtitles.orbital_architect.drone_pickup",
+    "sounds": ["orbital_architect:drone/pickup"]
+  },
+  "drone_place": {
+    "subtitle": "subtitles.orbital_architect.drone_place",
+    "sounds": ["orbital_architect:drone/place"]
+  },
+  "drone_rotor": {
+    "sounds": ["orbital_architect:drone/rotor"]
+  }
+}

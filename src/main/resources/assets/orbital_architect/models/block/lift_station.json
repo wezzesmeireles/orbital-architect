@@ -1,0 +1,129 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "orbital_architect:block/white_steel",
+    "frame": "orbital_architect:block/white_steel",
+    "panel": "orbital_architect:block/machined_chassis",
+    "signal": "orbital_architect:block/diffuser_strip"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        15,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#frame"
+        },
+        "down": {
+          "texture": "#frame"
+        },
+        "north": {
+          "texture": "#frame"
+        },
+        "south": {
+          "texture": "#frame"
+        },
+        "west": {
+          "texture": "#frame"
+        },
+        "east": {
+          "texture": "#frame"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        15,
+        1
+      ],
+      "to": [
+        15,
+        16,
+        15
+      ],
+      "faces": {
+        "up": {
+          "texture": "#panel"
+        },
+        "down": {
+          "texture": "#panel"
+        },
+        "north": {
+          "texture": "#panel"
+        },
+        "south": {
+          "texture": "#panel"
+        },
+        "west": {
+          "texture": "#panel"
+        },
+        "east": {
+          "texture": "#panel"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        16,
+        4
+      ],
+      "to": [
+        9,
+        16.1,
+        12
+      ],
+      "faces": {
+        "up": {
+          "texture": "#signal",
+          "neoforge_data": {
+            "block_light": 12
+          }
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        16,
+        7
+      ],
+      "to": [
+        7,
+        16.1,
+        9
+      ],
+      "faces": {
+        "up": {
+          "texture": "#signal"
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        16,
+        7
+      ],
+      "to": [
+        12,
+        16.1,
+        9
+      ],
+      "faces": {
+        "up": {
+          "texture": "#signal"
+        }
+      }
+    }
+  ]
+}

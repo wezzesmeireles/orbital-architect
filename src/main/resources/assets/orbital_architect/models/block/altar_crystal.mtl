@@ -1,0 +1,27 @@
+newmtl tip
+Kd 1 1 1
+map_Kd #gem
+
+newmtl facet0
+Kd 0.95 0.95 0.95
+map_Kd #gem
+
+newmtl facet1
+Kd 0.75 0.75 0.75
+map_Kd #gem
+
+newmtl facet2
+Kd 0.84 0.84 0.84
+map_Kd #gem
+
+newmtl facet3
+Kd 0.97 0.97 0.97
+map_Kd #gem
+
+newmtl facet4
+Kd 0.69 0.69 0.69
+map_Kd #gem
+
+newmtl facet5
+Kd 0.88 0.88 0.88
+map_Kd #gem

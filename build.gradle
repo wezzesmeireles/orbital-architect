@@ -1,0 +1,81 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+group = 'dev.orbitalarchitect'
+version = '0.1.0'
+base.archivesName = 'orbital_architect'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = '21.1.265'
+    runs {
+        client {
+            client()
+            if (providers.gradleProperty('orbitalRefit').isPresent()) {
+                gameDirectory = project.file('run/refit-survival')
+                programArguments.addAll('--quickPlaySingleplayer', 'Orbital - Reforma', '--width', '1440', '--height', '810')
+            } else if (providers.gradleProperty('orbitalSurvival').isPresent()) {
+                gameDirectory = project.file('run/roadmap-survival')
+                programArguments.addAll('--quickPlaySingleplayer', 'Orbital - Sobrevivencia', '--width', '1440', '--height', '810')
+            }
+        }
+        server { server(); programArgument '--nogui' }
+    }
+    mods {
+        orbital_architect { sourceSet sourceSets.main }
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+repositories {
+    maven {
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+}
+
+dependencies {
+    compileOnly 'maven.modrinth:ae2:kfyIqgJ6'
+    if (providers.gradleProperty('withJade').isPresent()) {
+        runtimeOnly 'maven.modrinth:jade:eYz2YBGT'
+    }
+    if (providers.gradleProperty('withJei').isPresent()) {
+        runtimeOnly 'maven.modrinth:jei:iv3KiVkE'
+    }
+    if (providers.gradleProperty('withAe2').isPresent()) {
+        runtimeOnly 'maven.modrinth:ae2:kfyIqgJ6'
+    }
+    if (providers.gradleProperty('withPowah').isPresent()) {
+        runtimeOnly 'maven.modrinth:powah:K5Vhgari'
+        runtimeOnly 'maven.modrinth:cloth-config:DqgODWcH'
+    }
+    if (providers.gradleProperty('withAe2').isPresent() || providers.gradleProperty('withPowah').isPresent()) {
+        runtimeOnly 'maven.modrinth:guideme:ZT6SDp8y'
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
