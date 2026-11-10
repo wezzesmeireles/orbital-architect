@@ -6,9 +6,13 @@ Mod de construção modular para Minecraft Java 1.21.1. Planeje domos, corredore
 
 Use Java 21 e NeoForge 21.1.265 ou uma versão posterior da série 21.1. Coloque o JAR do Orbital Architect na pasta `mods` do jogo. Para multiplayer, instale a mesma versão no cliente e no servidor. Applied Energistics 2 é opcional. Os drones aceitam FE de geradores compatíveis, incluindo Powah.
 
-[Lista de próximas ideias e testes](ROADMAP.md)
+[GitHub Releases](https://github.com/wezzesmeireles/orbital-architect/releases) · [CurseForge](https://www.curseforge.com/minecraft/mc-mods/orbital-architect)
 
-Passo 1 para Minecraft Java 1.21.1, NeoForge 21.1 e JDK 21.
+## Suporte
+
+Use o GitHub Issues para relatar um bug ou sugerir uma mudança. Inclua as versões do mod, do NeoForge e do Minecraft e descreva como reproduzir o problema. [Abrir chamado](https://github.com/wezzesmeireles/orbital-architect/issues/new/choose) · [Lista de ideias e testes](ROADMAP.md)
+
+## Desenvolvimento
 
 ```powershell
 .\gradlew.bat build
@@ -19,16 +23,12 @@ Passo 1 para Minecraft Java 1.21.1, NeoForge 21.1 e JDK 21.
 
 O build grava o JAR em `build/libs`. As propriedades `withAe2` e `withJei` adicionam os mods opcionais ao ambiente de desenvolvimento. O JAR do Orbital Architect pode ser instalado com ou sem AE2.
 
-Para reabrir o mundo de sobrevivência preparado nesta máquina, acrescente `-PorbitalSurvival` ao último comando. O terminal ligado ao gerador fica em `79, 106, 80`, na galeria do núcleo. A obra da torre pode ser retomada nesse mundo.
-
-Use `-PorbitalRefit` para abrir a cópia de teste com a sala de servidores reformada em quartzo.
-
 ## Teste no jogo
 
-1. Coloque um Altar do Orbe em terreno plano. Coloque o altar no ponto que deve ser o centro do núcleo. As quatro entradas ficam alinhadas a esse ponto. Deixe espaço para o núcleo de 13×13. O piso principal fica um bloco abaixo do altar. A galeria técnica tem dois blocos de altura livre, um piso inferior e acesso por degraus. Encoste um baú em uma das quatro faces laterais do altar.
+1. Coloque um Altar do Orbe no ponto que deve ser o centro do núcleo. Deixe espaço para a planta inicial de 25×25 ou para a cápsula de 19×19. O piso principal fica um bloco abaixo do altar e as escadas levam à galeria de cabos. Encoste um baú em uma das quatro faces laterais do altar.
 2. Clique no altar com a mão vazia. A planta **Núcleo do Orbe** aparece em 3D assim que a tela abre. Clique em **Revisar projeto** para validar o local. A tela mostra o módulo e as portas. Use **Girar** ou **Ver no mundo** para inspecionar o encaixe.
 3. Use **Corte** para ver o interior e **Vistoria** para localizar escavações, apoios sugeridos e blocos protegidos. Clique em **Fixar** para acompanhar os materiais pelo Terminal de Suprimentos enquanto abastece os baús. Autorize a limpeza na revisão se a obra indicar terreno removível.
-4. Depois de construir o núcleo, escolha uma planta e a sala de origem. Clique em um ponto verde no modelo para selecionar uma eclusa livre. Em **Opções da obra**, escolha uma passarela de vidro, um túnel blindado ou uma galeria técnica. O desnível acrescenta degraus. As eclusas das plantas atuais usam vão de 4×4.
+4. Depois de construir o núcleo, escolha uma planta e a sala de origem. Clique em um ponto verde no modelo para selecionar uma eclusa livre. Em **Conexão e etapas**, escolha uma passarela de vidro, um túnel blindado ou uma galeria técnica. O desnível acrescenta degraus. As eclusas das plantas atuais usam vão de 4×4.
 5. Em sobrevivência, conecte uma fonte de FE ao altar ou ao Terminal de Suprimentos. O terminal recebe FE por qualquer lado, exceto a face de saída. As outras faces também podem ler inventários vizinhos. Clique no terminal para consultar o estoque e ajustar a reserva de FE do núcleo. A partir do Tier 3, a frota também pode extrair materiais de uma rede ME ativa.
 6. Para atualizar um abrigo básico, selecione-o como sala de origem e clique em **Upgrade da sala**. O upgrade mantém as portas e as posições do interior.
 7. Use **Projetos → Conexão e etapas** para definir o corredor e a ordem da montagem. Em **Salas → Ajustes** você pode renomear a sala, sinalizar o caminho, salvar a planta ou pedir uma vistoria de reparo. Na Torre de Carga, clique na plataforma para subir e agache enquanto clica para descer. Itens soltos sobre a plataforma viajam junto.
